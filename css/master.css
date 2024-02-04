@@ -1,36 +1,63 @@
-<!doctype html>
+/* Cascading stylesheet for the website */
 
-<!-- this is a comment for human! -->
+/* Text inside these asterisks and slashes are comments for human */
 
-<html lang="en">
+  a {
+    color: blue; /* set the text color to blue here */
+    text-decoration: none; /* This means we do not want hyperlinks to be underlined */
+  }
 
-  <header>
-    <title>Harrison Kong's Portal</title>
-    <link rel="stylesheet" href="css/master.css">
-    <link rel="FaviconIcon" href="favicon.ico" type="image/x-icon">
-    <link rel="shortcut" href="favicon.ico" type="image/x-icon">
-    <meta name="viewport" content="widht=device-width, initial-scale=1, shrink-to-fit=no">
-    <meta name="name" content="Harrison Kong's Portal">
-    <meta name="robots" content="noindex, nofollow">
-  </header>
-  <body>
-    <img src="images/banner.jpg" width="75%" alt="banner">
-    <h1>Harrison Kong's Portal</h1>
-    <h2>About Me</h2>
-    <p>I am a mobile app and website developer in Los Angeles.</p>
-    <p>I have a BS of computer science from the University of Massachusetts, Boston.</p>
-    <p>I am currently the founder and software engineer of skyRoute66.</p>
-    <h2>Credentials and Portfolio</h2>
+  a:hover {
+    color: red; /* set the text color to red here */
+    text-decoration: none; /* This means we do not want hyperlinks to be underlined */
+  }
 
-    <p><a href="resume.html">My Resume</a> | <a href="https://github.com/harrisonkong">My GitHub</a></p>
-    <h2>Contact</h2>
+  body {
+    background-color: beige; /* set the background color here */
+    color: black; /* set the text color to black here */
+    font-family: Arial, Helvetica, sans-serif; /* set the font here */
+    text-align: center; /* set the text alignment here */
+   }
 
-    <p>Email: <a href="mailto:harrisonkong@skyroute66.com">harrisonkong@skyroute66.com</a></p>
-  </body>
+  footer {
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+  }
 
-  <footer>
-    <hr>
-    <code>Copyright (c) 2020 Harrison Kong</code>
-  </footer>
+  h1 {
+    margin-bottom: 0.5rem;
+    margin-top: 3rem;
+   }
 
-</html>
+  h2 {
+    color: #075AAB; /* set the text color of to #075AAB here */
+    /* set both the bottom margin and top margin to 2.5rem here */
+    margin-bottom: 2.5rem;
+    margin-top: 2.5rem;
+   }
+
+  h3 {
+    margin-bottom: 0;
+    margin-top: 2rem;
+  }
+
+  h4 {
+    margin-bottom: 1rem;
+    margin-top: 0.5rem;
+  }
+
+  h5 {
+    margin-top: 0.5rem;
+  }
+
+  hr {
+    margin-bottom: 3rem;
+    margin-top: 3rem;
+  }
+
+  /* this controls how the bullet points in the resume page looks */
+  ul {
+    display: table;
+    margin: 0 auto;
+    text-align: left;
+  }
