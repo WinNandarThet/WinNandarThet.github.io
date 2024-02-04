@@ -61,3 +61,22 @@
     margin: 0 auto;
     text-align: left;
   }
+
+  li {
+    text-align: left;
+  }
+
+  .centered-component {
+    display: flex; /* Use flexbox for centering */
+    justify-content: center; /* Horizontally center the component */
+    align-items: center; /* Vertically center the component */
+  }
+
+  p {
+    margin-left: 400px; /* Set left margin */
+    margin-right: 400px;
+  }
+
+  .text-justify {
+    text-align: justify;
+  }
