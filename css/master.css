@@ -73,8 +73,8 @@
   }
 
   p {
-    margin-left: 400px; /* Set left margin */
-    margin-right: 400px;
+    margin-left: 0 auto;
+    margin-right: 0 auto;
   }
 
   .text-justify {
